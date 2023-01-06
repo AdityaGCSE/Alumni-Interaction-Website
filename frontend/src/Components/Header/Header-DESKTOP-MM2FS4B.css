@@ -1,0 +1,46 @@
+.speedDial {
+    position: fixed;
+    right: 1vmax;
+    top: 1.5vmax;
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
+  .speedDial {
+    position: fixed;
+    right: 14vmax;
+    top: 3vmax;
+  }
+  }
+  
+  .speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+  }
+  
+  .navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    --bs-navbar-padding-y: 0px;
+    --bs-navbar-nav-link-padding-x: 1rem;
+  }
+  
+  .nav-link{
+    font-size: 19.5px;
+    color: aliceblue;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .nav-link{
+      font-size: 14.5px;
+    }
+  }
+  
+  .container{
+    margin: 0px;
+    padding: 0px;
+    width:95vw;
+  }
+  

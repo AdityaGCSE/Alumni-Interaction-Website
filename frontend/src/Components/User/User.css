@@ -1,0 +1,33 @@
+#basic-nav-dropdown{
+    font-size: 28px;
+    cursor:pointer;
+    color: inherit !important;
+}
+
+#basic-nav-dropdown:hover{
+    color: inherit !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important; 
+  }
+
+ .navbar-nav .show>.nav-link{
+    color: inherit !important;
+}
+
+#username{
+    font-size: 1rem;
+}
+
+#myprofile{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 992px)
+{
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        left: 8%;
+    }
+}

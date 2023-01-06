@@ -1,0 +1,48 @@
+#nav{
+  background-color: rgb(228, 228, 228);
+  box-shadow: rgb(122, 126, 155) 0px 0px 20px 2px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    --bs-navbar-padding-y: 10px;
+    --bs-navbar-nav-link-padding-x: 1rem;
+  }
+  
+  .nav-link{
+    font-size: 1 rem;
+    font-weight: 500;
+    color: rgb(59, 60, 98);
+  }
+  .nav-link:hover{
+    color: rgb(26, 6, 248);
+  }
+
+  .navbar-nav .nav-link.active{
+    color: inherit;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .nav-link{
+      font-size: 14.5px;
+    }
+  }
+
+  .loginsignup{
+    background-color:rgb(241, 241, 241);
+    font-size: 15px;
+    border: 1px solid rgb(59, 60, 98);
+    color: rgb(59, 60, 98);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 12px;
+  }
+  .loginsignup:hover{
+    background-color: rgb(59, 60, 98) !important;
+    color: white !important;
+    border: 1px solid white;
+    background-color: white;
+  }

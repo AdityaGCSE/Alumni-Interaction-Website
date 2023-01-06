@@ -1,0 +1,55 @@
+.userinfo{
+    display: grid;
+    grid-template-columns: 20vw auto;
+    font-size: 1.5vw;
+    background-color: beige;
+    padding-top: 100px;
+}
+
+.userprof{
+    /* height: 1000px; */
+    width: 20vw;
+    /* background-color: rgb(255, 234, 208); */
+    padding: 5vw;
+    text-align: center;
+}
+
+.userprofimg{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 76px;
+}
+
+.userinfdiv{
+   height: inherit;
+}
+
+.info{
+    height: 90px;
+    margin: 5px auto;
+    padding: 25px;
+    background-color: bisque;
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.edit{
+    margin: 30px;
+    float: right;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+.noneditable{
+    outline: none;
+    border: none;
+    background-color: bisque;
+}
+
+.editable{
+    border-radius: 5px;
+    background-color: rgb(255, 242, 224);
+}
+

@@ -1,0 +1,38 @@
+footer {
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    align-items: center;
+  }
+
+  .footerflexcontainer{
+    margin: auto;
+    max-width: 1200px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footerflexbox{
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.footerflexbox > a{
+  display: block;
+  width: inherit;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.footerflexbox > a:hover{
+  text-decoration: underline;
+}
+
+.center{
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(201, 198, 198);
+}

@@ -1,0 +1,18 @@
+GET http://localhost:3001/database
+
+###
+
+PUT  http://localhost:3001/database/new
+Content-Type: application/json
+
+{
+    "name": "Ajay"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63a761cac0c2ad94790a6625
+
+###
+
+GET http://localhost:3001/todo/complete/63a74af1282ca46a0c3686d2
