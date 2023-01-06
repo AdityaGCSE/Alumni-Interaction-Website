@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="footerflexbox"> <a href="./">Contact Us</a> </div>
         <div className="footerflexbox"> <a href="./">Question?</a> </div>
       </div>
-      <div className="center">&#169; All Rights Reserved, CSE Students Socity, NIT Durgapur</div>
+      <div className="center">&#169; All Rights Reserved, CSE Students Socity,NIT Durgapur</div>
     </footer>
   );
 };
