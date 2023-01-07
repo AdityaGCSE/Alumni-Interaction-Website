@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" id='nav' variant="dark">
       <Container>
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/Alumni-Interaction-Website/">
             <img
               src={logo}
               width="50"
@@ -23,11 +23,11 @@ export default function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/events" >Events</Nav.Link>
-            <Nav.Link href="/initiatives" target="_blank" rel="noopener noreferrer">Initiatives</Nav.Link>
-            <Nav.Link href="/newsmedia" target="_blank" rel="noopener noreferrer">News & Media</Nav.Link>
-            <Nav.Link href="/aboutus" target="_blank" rel="noopener noreferrer">About Us</Nav.Link>
-            <Nav.Link href="/services" target="_blank" rel="noopener noreferrer">Services</Nav.Link>
+            <Nav.Link href="/Alumni-Interaction-Website/events" >Events</Nav.Link>
+            <Nav.Link href="/Alumni-Interaction-Website/initiatives">Initiatives</Nav.Link>
+            <Nav.Link href="/Alumni-Interaction-Website/newsmedia">News & Media</Nav.Link>
+            <Nav.Link href="/Alumni-Interaction-Website/aboutus">About Us</Nav.Link>
+            <Nav.Link href="/Alumni-Interaction-Website/services" target="_blank" rel="noopener noreferrer">Services</Nav.Link>
           </Nav>
           <Nav id='test'>
             <Login/>
