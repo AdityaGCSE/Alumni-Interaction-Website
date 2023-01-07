@@ -302,3 +302,7 @@
 .carousel-indicators {
     bottom: -27px;
 }
+
+.firstcarousel .carousel-indicators{
+    bottom: -15px;
+}

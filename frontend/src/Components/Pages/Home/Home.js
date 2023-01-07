@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function Home() {
   return (
 <div id='body'> 
-<Carousel>
+<Carousel className='firstcarousel'>
       <Carousel.Item>
         <img
           className="d-block w-100 titleimg"
