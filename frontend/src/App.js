@@ -9,7 +9,7 @@ import Newsmedia from './Components/Pages/Newsmedia/Newsmedia.js';
 import Aboutus from './Components/Pages/Aboutus/Aboutus.js';
 import Services from './Components/Pages/Services/Services.js';
 import Userinfo from "./Components/User/Userinfo.js";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 
 export default function Main() {
