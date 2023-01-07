@@ -7,6 +7,6 @@ export default function Services() {
     document.title = 'Services | Almuni Interaction Cell - CSE Students Society ';
   }); 
   return (
-    <div>Events</div>
+    <div>Services</div>
   )
 }
