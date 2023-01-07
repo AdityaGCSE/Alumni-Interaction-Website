@@ -19,25 +19,25 @@ export default function Main() {
     <div>
        <Header/>
        <Switch>
-          <Route exact path="/">
+          <Route exact path="/Alumni-Interaction-Website/#/">
             <Home />
           </Route>
-          <Route exact path="/events">
+          <Route exact path="/Alumni-Interaction-Website/#/events">
             <Events />
           </Route>
-          <Route exact path="/initiatives">
+          <Route exact path="/Alumni-Interaction-Website/#/initiatives">
             <Initiatives/>
           </Route>
-          <Route exact path="/newsmedia">
+          <Route exact path="/Alumni-Interaction-Website/#/newsmedia">
             <Newsmedia />
           </Route>
-          <Route exact path="/aboutus">
+          <Route exact path="/Alumni-Interaction-Website/#/aboutus">
             <Aboutus />
           </Route>
-          <Route exact path="/services">
+          <Route exact path="/Alumni-Interaction-Website/#/services">
             <Services />
           </Route>
-          <Route exact path="/user">
+          <Route exact path="/Alumni-Interaction-Website/#/user">
             <Userinfo />
           </Route>
         </Switch>
