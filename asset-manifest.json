@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Alumni-Interaction-Website/static/css/main.41707cf6.css",
-    "main.js": "/Alumni-Interaction-Website/static/js/main.9508ff81.js",
+    "main.js": "/Alumni-Interaction-Website/static/js/main.18c1ada4.js",
     "static/media/logo.png": "/Alumni-Interaction-Website/static/media/logo.faac0875c8e33f700861.png",
     "static/media/Aditya_Ghosh_profile.png": "/Alumni-Interaction-Website/static/media/Aditya_Ghosh_profile.92ec3704ab98cbaf39ca.png",
     "index.html": "/Alumni-Interaction-Website/index.html",
     "main.41707cf6.css.map": "/Alumni-Interaction-Website/static/css/main.41707cf6.css.map",
-    "main.9508ff81.js.map": "/Alumni-Interaction-Website/static/js/main.9508ff81.js.map"
+    "main.18c1ada4.js.map": "/Alumni-Interaction-Website/static/js/main.18c1ada4.js.map"
   },
   "entrypoints": [
     "static/css/main.41707cf6.css",
-    "static/js/main.9508ff81.js"
+    "static/js/main.18c1ada4.js"
   ]
 }
