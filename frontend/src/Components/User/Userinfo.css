@@ -7,9 +7,7 @@
 }
 
 .userprof{
-    /* height: 1000px; */
     width: 20vw;
-    /* background-color: rgb(255, 234, 208); */
     padding: 5vw;
     text-align: center;
 }
@@ -42,7 +40,7 @@
     font-weight: bold;
 }
 
-.noneditable{
+.noneditable,#em,#nm{
     outline: none;
     border: none;
     background-color: bisque;
